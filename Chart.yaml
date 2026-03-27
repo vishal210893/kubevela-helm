@@ -1,0 +1,15 @@
+apiVersion: v2
+name: arc-crds
+description: Helm chart that installs the AutoscalingRunnerSet CRD for Actions Runner Controller (ARC)
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - actions-runner-controller
+  - github-actions
+  - arc
+  - crds
+sources:
+  - https://github.com/actions/actions-runner-controller
+maintainers:
+  - name: arc-crds

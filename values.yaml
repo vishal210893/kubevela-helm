@@ -1,0 +1,3 @@
+# Default values for arc-crds.
+# This chart only installs the AutoscalingRunnerSet CRD.
+# No configurable values are required.
