@@ -2,11 +2,31 @@ apiVersion: v1
 entries:
   arc-crds:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2026-03-27T12:25:55.005291+05:30"
+    appVersion: 0.2.0
+    created: "2026-03-27T16:11:42.530105+05:30"
     description: Helm chart that installs the AutoscalingRunnerSet CRD for Actions
       Runner Controller (ARC)
-    digest: 4e6634ba11501565b963642c5e43852b5ecae9716acc71e1ff457f95be34b4a8
+    digest: 1b60e9c3e976d8a16aa67d2d2989b9257b8a1ff6632667d4fefa7c09301d94b9
+    keywords:
+    - actions-runner-controller
+    - github-actions
+    - arc
+    - crds
+    maintainers:
+    - name: arc-crds
+    name: arc-crds
+    sources:
+    - https://github.com/actions/actions-runner-controller
+    type: application
+    urls:
+    - https://vishal210893.github.io/kubevela-helm/arc-crds-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-03-27T16:11:42.527425+05:30"
+    description: Helm chart that installs the AutoscalingRunnerSet CRD for Actions
+      Runner Controller (ARC)
+    digest: b99ae16fbb8787dd8c224bc025d93d1a058c8f85aa703eca50daf658445cb102
     keywords:
     - actions-runner-controller
     - github-actions
@@ -21,4 +41,4 @@ entries:
     urls:
     - https://vishal210893.github.io/kubevela-helm/arc-crds-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-27T12:25:54.999222+05:30"
+generated: "2026-03-27T16:11:42.522596+05:30"

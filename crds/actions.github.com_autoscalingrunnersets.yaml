@@ -23,7 +23,7 @@ spec:
           type: integer
         - jsonPath: .status.currentRunners
           name: Current Runners
-          type: integer
+          type: boolean
         - jsonPath: .status.state
           name: State
           type: string

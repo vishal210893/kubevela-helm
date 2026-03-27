@@ -1,6 +1,0 @@
-The AutoscalingRunnerSet CRD has been installed.
-
-CRD: autoscalingrunnersets.actions.github.com
-
-You can verify the installation with:
-  kubectl get crd autoscalingrunnersets.actions.github.com
